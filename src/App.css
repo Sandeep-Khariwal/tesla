@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.key{
+  color: #8e8e8e;
+  letter-spacing: 1.8px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.value{
+  color: #8e8e8e;
+  letter-spacing: normal;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.tittle{
+  color: #8e8e8e;
+  font-size: 12px;
+}
+.card{
+  width: 10rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:400px) {
+  .card{
+    width: 12rem;
+    margin: 1rem 0 1rem 0;
+  }
+}
+@media screen and (min-width:640px) {
+  .card{
+    width: 11rem;
+    margin: 1rem 1rem 1rem 0;
+  }
+}
